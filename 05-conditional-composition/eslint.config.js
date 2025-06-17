@@ -5,7 +5,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import neostandard from 'neostandard'
 
 export default [
-  neostandard(),
+  ...neostandard(),
   { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
