@@ -1,0 +1,170 @@
+body {
+  background: #1a1a2e;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #23234b;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #f5d776;
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav button {
+  background: #f5d776;
+  color: #23234b;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background 0.2s;
+}
+
+nav button:hover {
+  background: #ffd700;
+}
+
+.planeta-form {
+  background: #23234b;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.planeta-form label {
+  color: #f5d776;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.planeta-input,
+.planeta-textarea {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  background: #fff;
+  color: #23234b;
+  resize: none;
+}
+
+.planeta-textarea {
+  min-height: 60px;
+}
+
+.planeta-file-label {
+  color: #f5d776;
+  font-weight: 500;
+}
+
+.planeta-file {
+  margin-top: 0.5rem;
+}
+
+.planeta-preview {
+  max-width: 220px;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  align-self: center;
+}
+
+.planeta-form-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.planeta-btn {
+  background: #f5d776;
+  color: #23234b;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.planeta-btn:hover {
+  background: #ffd700;
+}
+
+.planeta-btn-cancel {
+  background: #e94560;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.planeta-btn-cancel:hover {
+  background: #c82333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #282862;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li h3 {
+  margin: 0 0 0.5rem 0;
+  color: #f5d776;
+}
+
+li img {
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    padding: 1rem;
+  }
+}
